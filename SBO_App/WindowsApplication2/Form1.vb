@@ -1452,6 +1452,7 @@ Ending:
 
     Private Sub Timer9_Tick(sender As Object, e As EventArgs) Handles Timer9.Tick
 
+
         If mins = 0 And milliseconds - 1 - stopwatch.Elapsed.Seconds < sec6 Then
 
             sec6 = 24
@@ -2136,6 +2137,24 @@ Ending:
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+
+        If Timer9.Enabled = False And Form3.CheckBox4.Checked = True Then
+
+            Dim FileName As String
+            Dim a As Integer
+
+            a = random.Next(1, Form9.zzzz)
+
+            FileName = Chr(34) & (Form3.TextBox33.Text & Form3.ListView2.Items(a).Text) & Chr(34)
+
+            music(“open ” & FileName & ” alias myDevice”, Nothing, 0, 0)
+            music(“play myDevice”, Nothing, 0, 0)
+
+        Else
+
+            music(“close myDevice”, Nothing, 0, 0)
+
+        End If
 
         Select Case gameformat
 

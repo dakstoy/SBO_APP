@@ -87,8 +87,17 @@ Partial Class Form9
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.Timer6 = New System.Windows.Forms.Timer(Me.components)
+        Me.Button10 = New System.Windows.Forms.Button()
+        Me.Button11 = New System.Windows.Forms.Button()
+        Me.Button12 = New System.Windows.Forms.Button()
+        Me.Button13 = New System.Windows.Forms.Button()
+        Me.Button14 = New System.Windows.Forms.Button()
+        Me.Button15 = New System.Windows.Forms.Button()
+        Me.Button16 = New System.Windows.Forms.Button()
+        Me.Button17 = New System.Windows.Forms.Button()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
+        Me.Panel3.SuspendLayout()
         Me.TabPage2.SuspendLayout()
         Me.Panel4.SuspendLayout()
         CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -274,6 +283,14 @@ Partial Class Form9
         '
         'Panel3
         '
+        Me.Panel3.Controls.Add(Me.Button17)
+        Me.Panel3.Controls.Add(Me.Button16)
+        Me.Panel3.Controls.Add(Me.Button15)
+        Me.Panel3.Controls.Add(Me.Button14)
+        Me.Panel3.Controls.Add(Me.Button13)
+        Me.Panel3.Controls.Add(Me.Button12)
+        Me.Panel3.Controls.Add(Me.Button11)
+        Me.Panel3.Controls.Add(Me.Button10)
         Me.Panel3.Location = New System.Drawing.Point(0, 119)
         Me.Panel3.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel3.Name = "Panel3"
@@ -817,6 +834,86 @@ Partial Class Form9
         'Timer6
         '
         '
+        'Button10
+        '
+        Me.Button10.Location = New System.Drawing.Point(57, 354)
+        Me.Button10.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(84, 28)
+        Me.Button10.TabIndex = 34
+        Me.Button10.Text = "Pic1"
+        Me.Button10.UseVisualStyleBackColor = True
+        '
+        'Button11
+        '
+        Me.Button11.Location = New System.Drawing.Point(174, 354)
+        Me.Button11.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button11.Name = "Button11"
+        Me.Button11.Size = New System.Drawing.Size(84, 28)
+        Me.Button11.TabIndex = 35
+        Me.Button11.Text = "Pic2"
+        Me.Button11.UseVisualStyleBackColor = True
+        '
+        'Button12
+        '
+        Me.Button12.Location = New System.Drawing.Point(298, 354)
+        Me.Button12.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button12.Name = "Button12"
+        Me.Button12.Size = New System.Drawing.Size(84, 28)
+        Me.Button12.TabIndex = 36
+        Me.Button12.Text = "Pic3"
+        Me.Button12.UseVisualStyleBackColor = True
+        '
+        'Button13
+        '
+        Me.Button13.Location = New System.Drawing.Point(432, 354)
+        Me.Button13.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button13.Name = "Button13"
+        Me.Button13.Size = New System.Drawing.Size(84, 28)
+        Me.Button13.TabIndex = 37
+        Me.Button13.Text = "Pic4"
+        Me.Button13.UseVisualStyleBackColor = True
+        '
+        'Button14
+        '
+        Me.Button14.Location = New System.Drawing.Point(553, 354)
+        Me.Button14.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button14.Name = "Button14"
+        Me.Button14.Size = New System.Drawing.Size(84, 28)
+        Me.Button14.TabIndex = 38
+        Me.Button14.Text = "Pic5"
+        Me.Button14.UseVisualStyleBackColor = True
+        '
+        'Button15
+        '
+        Me.Button15.Location = New System.Drawing.Point(661, 354)
+        Me.Button15.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button15.Name = "Button15"
+        Me.Button15.Size = New System.Drawing.Size(84, 28)
+        Me.Button15.TabIndex = 39
+        Me.Button15.Text = "Pic6"
+        Me.Button15.UseVisualStyleBackColor = True
+        '
+        'Button16
+        '
+        Me.Button16.Location = New System.Drawing.Point(768, 354)
+        Me.Button16.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button16.Name = "Button16"
+        Me.Button16.Size = New System.Drawing.Size(84, 28)
+        Me.Button16.TabIndex = 40
+        Me.Button16.Text = "Pic7"
+        Me.Button16.UseVisualStyleBackColor = True
+        '
+        'Button17
+        '
+        Me.Button17.Location = New System.Drawing.Point(865, 354)
+        Me.Button17.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button17.Name = "Button17"
+        Me.Button17.Size = New System.Drawing.Size(84, 28)
+        Me.Button17.TabIndex = 41
+        Me.Button17.Text = "Pic8"
+        Me.Button17.UseVisualStyleBackColor = True
+        '
         'Form9
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -833,6 +930,7 @@ Partial Class Form9
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
         Me.TabPage1.PerformLayout()
+        Me.Panel3.ResumeLayout(False)
         Me.TabPage2.ResumeLayout(False)
         Me.Panel4.ResumeLayout(False)
         CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).EndInit()
@@ -926,4 +1024,12 @@ Partial Class Form9
     Friend WithEvents PictureBox19 As PictureBox
     Friend WithEvents Label16 As Label
     Friend WithEvents PictureBox20 As PictureBox
+    Friend WithEvents Button17 As Button
+    Friend WithEvents Button16 As Button
+    Friend WithEvents Button15 As Button
+    Friend WithEvents Button14 As Button
+    Friend WithEvents Button13 As Button
+    Friend WithEvents Button12 As Button
+    Friend WithEvents Button11 As Button
+    Friend WithEvents Button10 As Button
 End Class

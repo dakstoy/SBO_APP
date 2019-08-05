@@ -36,7 +36,7 @@ Partial Class Form4
         Me.TextBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox1.Location = New System.Drawing.Point(52, 117)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
@@ -48,7 +48,7 @@ Partial Class Form4
         '
         Me.Button1.BackColor = System.Drawing.Color.Red
         Me.Button1.Location = New System.Drawing.Point(52, 187)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(121, 42)
         Me.Button1.TabIndex = 1
@@ -59,7 +59,7 @@ Partial Class Form4
         '
         Me.Button2.BackColor = System.Drawing.Color.Red
         Me.Button2.Location = New System.Drawing.Point(203, 187)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(121, 42)
         Me.Button2.TabIndex = 2
@@ -92,7 +92,7 @@ Partial Class Form4
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TextBox1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "Form4"

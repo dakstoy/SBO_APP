@@ -192,6 +192,18 @@ Ending2:
 
         Next
 
+        For Each foundFile2 As String In My.Computer.FileSystem.GetFiles(Form3.TextBox33.Text)
+
+            Dim ThisFile2 As String = VB.Right(foundFile2, Len(foundFile2) - Len(Form3.TextBox33.Text))
+
+            Dim item12 As New ListViewItem(ThisFile2)
+            Form3.ListView2.Items.Add(item12)
+            ComboBox1.Items.Add(ThisFile2)
+
+        Next
+
+        Form9.zzzz = Form3.ListView2.Items.Count
+
     End Sub
 
 End Class

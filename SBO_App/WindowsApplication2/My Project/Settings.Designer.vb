@@ -749,6 +749,30 @@ Namespace My
                 Me("yughjklnm") = value
             End Set
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property potyuio() As String
+            Get
+                Return CType(Me("potyuio"),String)
+            End Get
+            Set
+                Me("potyuio") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("True")>  _
+        Public Property gfhgfjkgkghfkjg() As Boolean
+            Get
+                Return CType(Me("gfhgfjkgkghfkjg"),Boolean)
+            End Get
+            Set
+                Me("gfhgfjkgkghfkjg") = value
+            End Set
+        End Property
     End Class
 End Namespace
 

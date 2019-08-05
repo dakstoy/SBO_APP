@@ -79,14 +79,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SBO_App.exe" size="18586112">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SBO_App.exe" size="18594304">
       <assemblyIdentity name="SBO_App" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Ct6l4xs8c7jlhHXa2h+ffvMkGUmPt/L1+0CHH4gjLcc=</dsig:DigestValue>
+        <dsig:DigestValue>zhp5+tdX5sgMZ83dajP9zsEwbOUVFh2tu8iBGxmIbBA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -108,13 +108,13 @@
       <dsig:DigestValue>ldPRpNx4DFK8bXWbrzlgSy/9EyG2gvaVMiCHUBl0y8M=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="SBO_App.exe.config" size="7308">
+  <file name="SBO_App.exe.config" size="7721">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>/T3HrZrbTEG5OZ/GBDf225BlEhOj/6kMpH3XESsaJnc=</dsig:DigestValue>
+      <dsig:DigestValue>00p+8iwqwJdeNw2IrwSaYS321912eQUkY2pKlKfBvbM=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">

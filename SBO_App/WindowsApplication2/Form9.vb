@@ -14,6 +14,7 @@ Public Class Form9
     Shared random As New Random()
     Private Declare Function music Lib “winmm.dll” Alias “mciSendStringA” (ByVal lpstrCommand As String, ByVal lpstrReturnString As String, ByVal uReturnLength As Integer, ByVal hwndCallback As Integer) As Integer
     Dim zzz As Integer
+    Public zzzz As Integer
 
     Public Sub New()
         InitializeComponent()
@@ -53,6 +54,7 @@ Public Class Form9
         Panel2.BringToFront()
         Panel5.BringToFront()
         zzz = Form3.ListView1.Items.Count
+
         TextBox1.Text = "http://"
         PictureBox10.Visible = False
         'Panel1.Visible = True
@@ -381,6 +383,110 @@ Public Class Form9
         Else
 
             Label15.Left = 0
+
+        End If
+
+    End Sub
+
+    Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
+
+        Dim opf As New OpenFileDialog
+        opf.Filter = "Choose Image(*.jpg;*.png;*.gif|*.jpg;*.png;*.gif"
+
+        If opf.ShowDialog = DialogResult.OK Then
+
+            PictureBox3.Image = Image.FromFile(opf.FileName)
+
+        End If
+
+    End Sub
+
+    Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
+
+        Dim opf As New OpenFileDialog
+        opf.Filter = "Choose Image(*.jpg;*.png;*.gif|*.jpg;*.png;*.gif"
+
+        If opf.ShowDialog = DialogResult.OK Then
+
+            PictureBox6.Image = Image.FromFile(opf.FileName)
+
+        End If
+
+    End Sub
+
+    Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
+
+        Dim opf As New OpenFileDialog
+        opf.Filter = "Choose Image(*.jpg;*.png;*.gif|*.jpg;*.png;*.gif"
+
+        If opf.ShowDialog = DialogResult.OK Then
+
+            PictureBox14.Image = Image.FromFile(opf.FileName)
+
+        End If
+
+    End Sub
+
+    Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
+
+        Dim opf As New OpenFileDialog
+        opf.Filter = "Choose Image(*.jpg;*.png;*.gif|*.jpg;*.png;*.gif"
+
+        If opf.ShowDialog = DialogResult.OK Then
+
+            PictureBox4.Image = Image.FromFile(opf.FileName)
+
+        End If
+
+    End Sub
+
+    Private Sub Button14_Click(sender As Object, e As EventArgs) Handles Button14.Click
+
+        Dim opf As New OpenFileDialog
+        opf.Filter = "Choose Image(*.jpg;*.png;*.gif|*.jpg;*.png;*.gif"
+
+        If opf.ShowDialog = DialogResult.OK Then
+
+            PictureBox5.Image = Image.FromFile(opf.FileName)
+
+        End If
+
+    End Sub
+
+    Private Sub Button15_Click(sender As Object, e As EventArgs) Handles Button15.Click
+
+        Dim opf As New OpenFileDialog
+        opf.Filter = "Choose Image(*.jpg;*.png;*.gif|*.jpg;*.png;*.gif"
+
+        If opf.ShowDialog = DialogResult.OK Then
+
+            PictureBox1.Image = Image.FromFile(opf.FileName)
+
+        End If
+
+    End Sub
+
+    Private Sub Button16_Click(sender As Object, e As EventArgs) Handles Button16.Click
+
+        Dim opf As New OpenFileDialog
+        opf.Filter = "Choose Image(*.jpg;*.png;*.gif|*.jpg;*.png;*.gif"
+
+        If opf.ShowDialog = DialogResult.OK Then
+
+            PictureBox7.Image = Image.FromFile(opf.FileName)
+
+        End If
+
+    End Sub
+
+    Private Sub Button17_Click(sender As Object, e As EventArgs) Handles Button17.Click
+
+        Dim opf As New OpenFileDialog
+        opf.Filter = "Choose Image(*.jpg;*.png;*.gif|*.jpg;*.png;*.gif"
+
+        If opf.ShowDialog = DialogResult.OK Then
+
+            PictureBox8.Image = Image.FromFile(opf.FileName)
 
         End If
 
