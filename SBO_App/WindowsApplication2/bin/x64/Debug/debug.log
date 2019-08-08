@@ -30718,3 +30718,8 @@ C:\fakepath(94,10-42): warning X3571: pow(f, e) will not work for negative f, us
 [0803/193820.816:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
 [0803/193820.824:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
 [0803/193820.824:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0806/071730.711:INFO:CONSOLE(8)] "JQMIGRATE: Migrate is installed, version 1.4.1", source: https://s2.wp.com/_static/??-eJyF0FEKwjAMBuAL2RUZHb6IZ6k1jtQ1rU26oae3wkSEqhDIQz7In+glKSQ3lROw9rWuBfJtbZ3njf4FVMAxW4EuIL2wiyRA8rQpsgRgtiM0piEecQJVGHIFJHXNOTbcZySkGWH5yzxIsu6iMjDeoXUIp3fm7x9Y1SHst8bsejMMpvcPs7tzAg== (8)
+[0806/071733.297:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0806/071733.297:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0806/071733.355:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0806/071733.355:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
